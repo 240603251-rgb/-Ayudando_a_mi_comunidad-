@@ -1,19 +1,19 @@
 h1 span{
-    color:hsl(107, 95%, 22%);
+    color:#635e5e;
 }
 /*utilidades*/
 .text-center{
     text-align: center;
 }
 .nombre-sitio{
-    color:hsl(115, 83%, 53%);
+    color:hsl(0, 4%, 20%);
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 40px; 
     margin-right: 10rem;
     margin-left: 10rem;
-}
+}   
 
 .contenedor{
     max-width: 1200px;
@@ -66,7 +66,7 @@ a{
 }
 
 .hero{
-    background-image:url(../img/2025-08-24_16.39.10.png);
+    background-image:url(../img/perros1.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -98,7 +98,7 @@ a{
 }
 /*Bloque nosotros*/
 .sobre-nosotros{
-    background-image: linear-gradient(to right, transparent 50%, #037103 50%, #037103 100%), url(../img/cosa.png);
+    background-image: linear-gradient(to right, transparent 50%, #282727 50%, #282727 100%), url(../img/perros4.webp);
     background-position: left center;
     padding: 10rem 0;
     background-repeat: no-repeat;
@@ -244,4 +244,26 @@ a{
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 4rem;
+}
+
+/*Navegacion*/
+.nav-principale{
+    
+    padding: 2rem 0;
+    display: flex;
+    flex-direction:row; /*cuatro posibles valores*/
+    /*en direccion row justify-content es para alinear horizontalmente y align-items es vertical*/
+    justify-content: space-between; /*tiene varios valores*/
+    align-items: center; /*tiene varios valores*/
+    background-color: #000;
+}
+.nav-principale a{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.nav-principale a:hover{
+    color: #ffffff87;
+}
+.nav-principal .nav-link:nth-child(1){
+    margin-right: 3rem;
 }
