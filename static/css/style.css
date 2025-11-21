@@ -1,3 +1,4 @@
+
 h1 span{
     color:#635e5e;
 }
@@ -128,6 +129,13 @@ a{
     grid-template-columns: repeat(6,1fr);
     gap: 2rem;
 }
+.producto img{
+    width: 100%;
+    height: auto;
+}
+.producto a{
+    color: #e1e1e1;
+}
 .producto:nth-child(1){
     grid-column: 1 / 7 ;
 }
@@ -147,7 +155,7 @@ a{
     grid-column: 5 / 7;
 }
 .producto{
-    background-color: #037103;
+    background-color:  #282727;
 }
 .texto-producto{
     text-align: center;
@@ -167,7 +175,7 @@ a{
 
 
 .site-footer{
-    border-top: 1px solid #0c3e1a;
+    border-top: 1px solid #000000;
     margin-top: 5rem;
     padding-top: 5rem;
 }
@@ -191,7 +199,7 @@ a{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 0;
-    border-top: 1px solid #037103;
+    border-top: 1px solid #000000;
 }
 /**formulario*/
 .formulario{
@@ -253,7 +261,7 @@ a{
     display: flex;
     flex-direction:row; /*cuatro posibles valores*/
     /*en direccion row justify-content es para alinear horizontalmente y align-items es vertical*/
-    justify-content: space-between; /*tiene varios valores*/
+    justify-content: center; /*tiene varios valores*/
     align-items: center; /*tiene varios valores*/
     background-color: #000;
 }
@@ -264,6 +272,20 @@ a{
 .nav-principale a:hover{
     color: #ffffff87;
 }
-.nav-principal .nav-link:nth-child(1){
-    margin-right: 3rem;
+.nav-principale .nav-link:nth-child(1){
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
+.nav-principale .nav-link:nth-child(2){
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.nav-principale .nav-link:nth-child(3){
+    margin-right: 2em;
+    margin-left: 2rem;
+}
+.nav-principale .nav-link:nth-child(4){
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
