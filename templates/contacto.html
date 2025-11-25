@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title%} de contacto {% endblock %}
+{% block content %}
+
+   <main class="contenido-principal contenedor">
+    <h2 class="text-center">Contacto</h2>
+    <form class="formulario">
+        <fieldset>
+            <legend>Tus datos</legend>
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="campo">
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" placeholder="Tu asunto" required>
+        </div>
+        <div class="campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Tu email" required>
+        </div>
+        <div class="campo">
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" placeholder="Tu numero telefonico" required>
+        </div>
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="" id="mensaje" rows="10" cols="20"></textarea>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pais</legend>
+            <div class="campo">
+                <label for="pais">Pais:</label>
+                <select name="" id="pais">
+                    <option value=""disabled>--Seleccione--</option>
+                    <option value=""Selected> Mexico</option>
+                    <option value="">Peru</option>
+                    <option value="">Colombia</option>
+                    <option value="">Argentina</option>
+                    <option value="">Bolivia</option>
+                </select>
+            </div>
+        </fieldset>
+       
+        <input type="submit" value="Enviar">
+    </form>
+   </main>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %} adopcion {% endblock %}
+
+{% block content %}
+    <section class="adopcion">
+  <h2>Adopta un amigo</h2>
+  <p>Estos perritos buscan un hogar lleno de cariño. ¡Conócelos y anímate a adoptar!</p>
+  
+  <div class="cards">
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion.webp')}}" alt="Perrito en adopción">
+      <h3>Firulais</h3>
+      <p>Edad: 2 años<br>Carácter: Juguetón y cariñoso</p>
+      <button>Adoptar</button>
+    </div>
+
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion2.jpg')}}" alt="Perrito en adopción">
+      <h3>Luna</h3>
+      <p>Edad: 1 año<br>Carácter: Tranquila y tierna</p>
+      <button>Adoptar</button>
+    </div>
+
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion3.webp')}}" alt="Perrito en adopción">
+      <h3>Max</h3>
+      <p>Edad: 3 años<br>Carácter: Protector y fiel</p>
+      <button>Adoptar</button>
+    </div>
+  </div>
+  
+  <div class="cards">
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion4.jpg')}}" alt="Perrito en adopción">
+      <h3>Tumajar</h3>
+      <p>Edad: 4 años<br>Carácter: bisaun</p>
+      <button>Adoptar</button>
+    </div>
+
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion5.jfif')}}" alt="Perrito en adopción">
+      <h3>Ricardo</h3>
+      <p>Edad: 1 año<br>Carácter: Fino</p>
+      <button>Adoptar</button>
+    </div>
+
+    <div class="card">
+      <img src="{{url_for('static', filename='img/adopcion6.jfif')}}" alt="Perrito en adopción">
+      <h3>Omar</h3>
+      <p>Edad: 2 años<br>Carácter: Cuidadoso</p>
+      <button>Adoptar</button>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}
